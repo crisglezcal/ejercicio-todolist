@@ -1,0 +1,151 @@
+.todoListContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.formContainer {
+  background: #ffffff;
+  border: 2px solid #4f46e5;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 6px rgba(79, 70, 229, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formContainer:hover {
+  box-shadow: 0 8px 15px rgba(79, 70, 229, 0.15);
+}
+
+.formGroup {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formGroup label {
+  display: block;
+  color: #3730a3;
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+}
+
+.formInput {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #c7d2fe;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  background: #f8faff;
+  text-align: center;
+  color: #374151; /* Añadido: color de texto oscuro */
+}
+
+.formInput:focus {
+  outline: none;
+  border-color: #4f46e5;
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+  color: #1f2937; /* Añadido: color más oscuro en focus */
+}
+
+/* Añadido: placeholder visible */
+.formInput::placeholder {
+  color: #9ca3af;
+}
+
+.formActions {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 2px solid #eef2ff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.submitBtn {
+  background: linear-gradient(135deg, #4f46e5 0%, #3730a3 100%);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(79, 70, 229, 0.3);
+  font-size: 16px;
+}
+
+.submitBtn:hover {
+  background: linear-gradient(135deg, #3730a3 0%, #312e81 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(79, 70, 229, 0.4);
+}
+
+.warningText {
+  color: #6366f1;
+  font-size: 16px;
+  padding: 12px 16px;
+  background: #eef2ff;
+  border-radius: 8px;
+  border-left: 4px solid #818cf8;
+  text-align: center;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  justify-content: center;
+  width: 100%;
+}
+
+.actionBtn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resetBtn {
+  background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+  color: white;
+}
+
+.resetBtn:hover {
+  background: linear-gradient(135deg, #4f46e5 0%, #3730a3 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(79, 70, 229, 0.4);
+}
+
+.clearBtn {
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+  color: white;
+}
+
+.clearBtn:hover {
+  background: linear-gradient(135deg, #ea580c 0%, #c2410c 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(234, 88, 12, 0.4);
+}
+
+.tasksContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

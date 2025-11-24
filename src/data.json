@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Comprar pan",
+    "description": "Ir a la panadería y comprar una barra de pan integral",
+    "deadline": "2025-01-20"
+  },
+  {
+    "title": "Estudiar JavaScript",
+    "description": "Repasar arrays, objetos y funciones",
+    "deadline": "2025-01-22"
+  },
+  {
+    "title": "Hacer ejercicio",
+    "description": "30 minutos de cardio en casa",
+    "deadline": "2025-01-21"
+  },
+  {
+    "title": "Enviar email al equipo",
+    "description": "Enviar el informe semanal al equipo de trabajo",
+    "deadline": "2025-01-19"
+  },
+  {
+    "title": "Limpiar escritorio",
+    "description": "Ordenar papeles, limpiar polvo y reorganizar cables",
+    "deadline": "2025-01-23"
+  }
+]

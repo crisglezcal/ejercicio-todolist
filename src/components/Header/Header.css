@@ -1,0 +1,26 @@
+.header {
+  background: linear-gradient(135deg, #4f46e5 0%, #3730a3 100%);
+  color: white;
+  padding: 24px 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(79, 70, 229, 0.2);
+  margin-bottom: 24px;
+  width: 100%;
+  margin-top: 0;
+}
+
+.headerTitle {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+  width: 100%;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.headerSubtitle {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  width: 100%;
+  opacity: 0.9;
+}
